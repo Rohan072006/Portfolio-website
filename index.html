@@ -12,33 +12,63 @@
     <h2>Rohan</h2>
 
     <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
    </nav>
 
-   <section class="hero">
+   <section class="hero" id="home">
 
     <div class="content">
 
-        <h1>Hello, I'm Rohan</h1>
+        <h1>
+            I am
+            <span id="typing"></span>
+        </h1>
 
-        <p>
-            I am learning Frontend and web design
+        <p id="text">
+    Passionate Frontend Developer learning
+    HTML, CSS and JavaScript to build
+    responsive and modern websites.
         </p>
 
-        <button>Hire Me</button>
+      <div class="hero-buttons">
 
+<button id="btn">Hire Me</button>
+
+<a href="resume.pdf" download>
+    <button>Download CV</button>
+</a>
+
+<a href="https://github.com/Rohan072006"
+target="_blank">
+
+    <button>GitHub</button>
+
+</a>
+
+<a href="https://linkedin.com"
+target="_blank">
+
+    <button>LinkedIn</button>
+
+</a>
+
+<button id="mode">Switch Theme</button>
+
+</div>
     </div>
 
-    <div class="image">
-        <img src="images.jpeg" alt="profile image">
+    <div class="image" id="profile">
+       <img src="images.jpeg" alt="profile image">
     </div>
 
 </section>
 
-<section class="about">
+<section class="about" id="about">
 
     <div class="about-text">
 
@@ -52,7 +82,7 @@
     </div>
 </section>
 
-<section class="skills">
+<section class="skills" id="skills">
 
     <h2>My Skills</h2>
 
@@ -77,38 +107,57 @@
 
 </section>
 
-<section class="Projects">
+<section class="Projects" id="Projects">
     <h2>My Projects</h2>
     <div class="Project-container">
 
         <div class="Project-card">
 
             <h3>Fashion Ecommerce Website</h3>
+            <p>
 
-            <p>A modern fashion ecommerce website made using HTML and CSS.
-            It includes product sections, responsive design and stylish UI.</p>
+Responsive fashion ecommerce website built
+using HTML and CSS with modern UI design.
 
-            <button>View Project</button>
+</p>
+
+<p>
+
+Tech Used: HTML, CSS
+
+</p>
+            <button>Live Demo</button>
         </div>
 
         <div class="Project-card">
 
             <h3>Portfolio Website</h3>
-            <p> A responsive personal portfolio website made using HTML and CSS.</p>
-            <button>View Project</button>
+           <p>
+
+Personal portfolio website with responsive
+design and JavaScript interactions.
+
+</p>
+
+<p>
+
+Tech Used: HTML, CSS, JavaScript
+
+</p>
+            <button>Live Demo</button>
         </div>
 
     </div>    
 </section>
 
-<section class="contact">
+<section class="contact" id="contact">
 
-    <h3>Contact Me</h3>
+    <h3>Let's Connect</h3>
 
     <form>
-        <input type="text" placeholder="Enter Your Name">
-        <input type="email" placeholder="Enter Your Email">
-        <textarea placeholder="Your Massage"></textarea>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Write Your Massage"></textarea>
         <button type="submit">Send Massage</button>
     </form>
 
@@ -121,6 +170,6 @@
     </p>
 
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
