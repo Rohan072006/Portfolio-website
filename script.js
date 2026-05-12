@@ -14,6 +14,10 @@ document.getElementById("mode").onclick = function(){
 
         document.querySelector("nav").style.backgroundColor = "white";
 
+        document.querySelectorAll("nav ul li a").forEach(function(link){
+            link.style.color = "black";
+        });
+
         document.querySelector(".about").style.backgroundColor = "white";
 
         document.querySelector(".skills").style.backgroundColor = "white";
@@ -32,7 +36,10 @@ document.getElementById("mode").onclick = function(){
         document.body.style.color = "white";
 
         document.querySelector("nav").style.backgroundColor = "#111827"
-
+        
+        document.querySelectorAll("nav ul li a").forEach(function(link){
+            link.style.color = "white";
+        });
         
         document.querySelector(".about").style.backgroundColor = "#111827"
 
