@@ -401,3 +401,31 @@ textarea:focus{
         gap: 15px;
     }
 }
+
+.about-cards{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.card{
+
+    background-color: #111827;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid orange;
+}
+.card h3{
+
+    color: orange;
+    margin-bottom: 10px;
+
+}
+.card{
+    min-height: 220px;
+}
